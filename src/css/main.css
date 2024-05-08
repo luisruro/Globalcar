@@ -1,0 +1,74 @@
+
+.contenedor-boton-whatsapp{
+    z-index: 7;
+    position: fixed;
+    bottom: 10%;
+    right: 5%;
+    width: 60px;
+    height: 60px;
+}
+
+.icono-whatsapp{
+    font-size: 2rem;
+}
+
+.tamaño-contenedor{
+    width: 600px;
+}
+
+.imagen{
+    opacity: 0.6;
+}
+
+.titulo{
+    font-size: 4rem;
+}
+
+.boton-personalizado{
+    width: 260px;
+    height: 65px;
+}
+
+.small-section{
+    width: 800px;
+    height: 200px;
+    background-color: var(--white-degraded);
+}
+
+.comprar-con-nosotros-container{
+    margin-top: 12%;
+}
+
+.container-pasaporte-y-licencia,
+.seccion-sobre-nosotros,
+.subasta{
+    margin-top: 8%;
+}
+
+.contenedor-pasaporte,
+.contenedor-licencia{
+    width: 500px;
+    height: 400px;
+}
+
+.pasaporte,
+.licencia,
+.sobre-notros{
+    width: 100%;
+    height: 100%;
+}
+
+.icono-pasaporte,
+.icono-licencia{
+    right: 10%;
+    top: -20%;
+    font-size: 5rem;
+}
+
+.seccion-sobre-nosotros{
+    background-image: url(/public/images/background.webp);
+    background-repeat: no-repeat;
+    background-position: center;   
+    background-attachment: fixed;
+    background-size: cover;
+}

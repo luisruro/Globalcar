@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Esta es una landing page para la empresa Globalcar Auto Sales LLC">
-    <meta name="keywords" content="dealer, concecionario, autos orlando, orlando, florida, mazda, hyundai, toyota, chevrolet, kia, ford, dealer de autos, dealer en orlando, dealer en florida, carro financiado, auto financiado, dealer financiamiento, financiamiento disponible, financiación, crédito, carro a crédito, jenifer medina, gerardo medina, alba lopez">
+    <meta name="keywords"
+        content="dealer, concecionario, autos orlando, orlando, florida, mazda, hyundai, toyota, chevrolet, kia, ford, dealer de autos, dealer en orlando, dealer en florida, carro financiado, auto financiado, dealer financiamiento, financiamiento disponible, financiación, crédito, carro a crédito, jenifer medina, gerardo medina, alba lopez">
     <meta name="sitedomain" content="https://globalcarautosales.com">
     <meta name="organization" content="Luis Rubio">
     <meta name="author" content="Luis Rubio">
@@ -22,10 +23,9 @@
     <title>Globalcar Auto Sales</title>
 </head>
 
-<body class="bg-black">
+<body>
     <!-- Este es el header de la página -->
-
-    <header class="container-fluid z-index-5 fixed-top bg-black-degraded border-bottom border-green">
+    <header class="container-fluid z-index-5 fixed-top bg-black border-bottom border-green px-5">
         <nav class="d-flex flex-wrap justify-content- align-items-center py-1 mb-1">
             <a href="/"
                 class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
@@ -33,17 +33,22 @@
             </a>
 
             <ul class="nav nav-pills">
-                <li class="nav-item"><a href="#" class="nav-link text-white fw-medium hover">POR QUÉ NOSOTROS</a></li>
-                <li class="nav-item"><a href="#" class="nav-link text-white fw-medium hover">CATÁLOGO</a></li>
-                <li class="nav-item"><a href="#" class="nav-link text-white fw-medium hover">FINANCIAMIENTO</a></li>
-                <li class="nav-item"><a href="#" class="nav-link text-white fw-medium hover">SOBRE NOSOTROS</a></li>
-                <li class="nav-item"><a href="#" class="nav-link text-white fw-medium hover">CONTÁCTANOS</a></li>
+                <li class="nav-item"><a href="#por-que-nosotros" class="nav-link text-white fw-medium hover">POR QUÉ NOSOTROS</a></li>
+                <li class="nav-item"><a href="#catalogo" class="nav-link text-white fw-medium hover">CATÁLOGO</a></li>
+                <li class="nav-item"><a href="#financiamiento" class="nav-link text-white fw-medium hover">FINANCIAMIENTO</a></li>
+                <li class="nav-item"><a href="#subasta" class="nav-link text-white fw-medium hover">COMPRAR EN SUBASTA</a></li>
+                <li class="nav-item"><a href="#sobre-nosotros" class="nav-link text-white fw-medium hover">SOBRE NOSOTROS</a></li>
+                <li class="nav-item"><a href="#contactanos" class="nav-link text-white fw-medium hover">CONTÁCTANOS</a></li>
             </ul>
         </nav>
     </header>
     <!-- Este es el main de la pagina -->
     <main>
-        <section class="container-fluid">
+        <section class="border border-green bg-green rounded-circle contenedor-boton-whatsapp d-flex justify-content-center align-items-center animate__animated animate__pulse animate__slow animate__infinite">
+            <a href="https://wa.me/14073126787" target="_blank"><i class="bi bi-whatsapp text-white icono-whatsapp"></i></a>
+        </section>
+
+        <section class="container-fluid bg-black">
             <article id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active position-relative" data-bs-interval="4000">
@@ -52,10 +57,12 @@
                         <div
                             class="carousel-caption d-flex flex-column justify-content-start align-items-start position-absolute top-50 start-50 translate-middle tamaño-contenedor">
                             <h1 class="fw-bold titulo text-start mb-4">
-                                ¿Buscas el <span class="text-green">carro</span> de tus <span class="text-green">sueños</span>?
+                                ¿Buscas el <span class="text-green">carro</span> de tus <span
+                                    class="text-green">sueños</span>?
                             </h1>
                             <p class="fs-4 text-start mb-4">
-                                En Globalcar Auto Sales LLC hacemos que sea fácil. Contáctanos y descubre el auto ideal para ti.
+                                En Globalcar Auto Sales LLC hacemos que sea fácil. Contáctanos y descubre el auto ideal
+                                para ti.
                             </p>
                             <a href="https://wa.me/14073126787" target="_blank">
                                 <button
@@ -89,10 +96,12 @@
                         <div
                             class="carousel-caption d-flex flex-column justify-content-start align-items-start position-absolute top-50 start-50 translate-middle tamaño-contenedor">
                             <h1 class="fw-bold titulo text-start mb-3">
-                                ¿Prefieres <span class="text-green">pagar</span> tu auto en <span class="text-green">cash</span>?
+                                ¿Prefieres <span class="text-green">pagar</span> tu auto en <span
+                                    class="text-green">cash</span>?
                             </h1>
                             <p class="fs-4 text-start mb-4">
-                                En Globalcar Auto Sales LLC, ofrecemos la opción de pagar en efectivo para una experiencia de compra rápida y sin complicaciones.
+                                En Globalcar Auto Sales LLC, ofrecemos la opción de pagar en efectivo o con tarjeta para
+                                una experiencia de compra rápida y sin complicaciones.
                             </p>
                             <a href="https://wa.me/14073126787" target="_blank">
                                 <button
@@ -116,11 +125,252 @@
             </article>
         </section>
 
-        <section>
+        <section class="container-fluid position-relative animate__animated animate__backInLeft">
+            <article
+                class="shadow p-3 mb-5 rounded rounded fw-medium fs-3 d-flex justify-content-center align-items-center gap-3 position-absolute top-50 start-50 translate-middle small-section">
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                    <i class="bi bi-cash-coin text-green fs-1"></i>
+                    <p class="fs-2">Fácil</p>
+                    <p>financiamiento</p>
+                </div>
+                <div class=" d-flex flex-column justify-content-center align-items-center">
+                    <i class="bi bi-gem text-green fs-1"></i>
+                    <p class="fs-2">+12.000</p>
+                    <p>Carros vendidos</p>
+                </div>
+                <div class=" d-flex flex-column justify-content-center align-items-center">
+                    <i class="bi bi-star-fill text-green fs-1"></i>
+                    <p class="fs-2">98%</p>
+                    <p>Clientes satisfechos</p>
+                </div>
+            </article>
+        </section>
 
+        <section id="por-que-nosotros" class="container-fluid comprar-con-nosotros-container">
+            <h2 class="text-center mb-5 fs-1">Por qué comprar tu carro con nosotros</h2>
+            <article class="row row-cols-1 row-cols-md-3 g-2">
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                    <div class="card h-100 bg-gray text-white shadow p-3 mb-5 rounded">
+                        <i class="bi bi-credit-card fs-1 text-green ms-3"></i>
+                        <div class="card-body">
+                            <h4 class="card-title">Ofertas especiales de financiación</h4>
+                            <p class="card-text">Descubre nuestras exclusivas ofertas de financiación para adquirir el
+                                auto de tus sueños sin preocupaciones. ¡Aprovecha ahora y conduce hacia tu nueva
+                                aventura!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                    <div class="card h-100 bg-gray text-white shadow p-3 mb-5 rounded">
+                        <i class="bi bi-coin fs-1 text-green ms-3"></i>
+                        <div class="card-body">
+                            <h4 class="card-title">Precios transparentes y justos</h4>
+                            <p class="card-text">Nuestros precios son claros y equitativos, sin sorpresas ni trucos. En
+                                nuestro dealer, la transparencia es nuestra norma, para que puedas comprar con total
+                                confianza.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                    <div class="card h-100 bg-gray text-white shadow p-3 mb-5 rounded">
+                        <i class="bi bi-key fs-1 text-green ms-3"></i>
+                        <div class="card-body">
+                            <h4 class="card-title">Dealer de autos de confianza</h4>
+                            <p class="card-text">En nuestro dealer, la confianza se traduce en calidad, transparencia y
+                                atención excepcional. Encuentra tu próximo vehículo con la tranquilidad que mereces.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                    <div class="card h-100 bg-gray text-white shadow p-3 mb-5 rounded">
+                        <i class="bi bi-person-plus-fill fs-1 text-green ms-3"></i>
+                        <div class="card-body">
+                            <h4 class="card-title">Servicio al cliente excepcional</h4>
+                            <p class="card-text">En nuestro dealer, el servicio al cliente es nuestra prioridad número
+                                uno. Desde el primer saludo hasta la entrega de las llaves, te garantizamos una
+                                experiencia excepcional que superará tus expectativas.</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section id="catalogo" class="container-fluid d-flex flex-column justify-content-center align-items-center">
+            <article>
+                <h2 class="text-center mt-5 fs-1">Somos multimarca</h2>
+                <p class="fs-4 px-5">Explora nuestra amplia gama de marcas líderes en la industria automotriz. En
+                    nuestro dealer
+                    multimarca, encontrarás el auto perfecto que se adapte a tu estilo y presupuesto. ¡Descubre la
+                    variedad que tenemos para ti!</p>
+            </article>
+            <article class="carrusel">
+                <div class="bg-gray d-flex justify-content-between align-items-center carrusel-items px-5">
+                    <div class="carrusel-item">
+                        <img class="img-fluid" src="./public/images/logo_Hyundai.webp" alt="logo Hyundai">
+                    </div>
+                    <div class="carrusel-item">
+                        <img class="img-fluid" src="./public/images/logo_Mazda.webp" alt="logo Mazda">
+                    </div>
+                    <div class="carrusel-item">
+                        <img class="img-fluid" src="./public/images/logo_Chevrolet.webp" alt="logo chevrolet">
+                    </div>
+                    <div class="carrusel-item">
+                        <img class="img-fluid" src="./public/images/logo_Ford.webp" alt="logo Ford">
+                    </div>
+                    <div class="carrusel-item">
+                        <img class="img-fluid" src="./public/images/logo_Nissan.webp" alt="logo Nissan">
+                    </div>
+                    <div class="carrusel-item">
+                        <img class="img-fluid" src="./public/images/logo_Toyota.webp" alt="logo Toyota">
+                    </div>
+                    <div class="carrusel-item">
+                        <img class="img-fluid" src="./public/images/logo_Kia.webp" alt="logo Kia">
+                    </div>
+                    <div class="carrusel-item">
+                        <img class="img-fluid" src="./public/images/logo_Honda.webp" alt="logo Honda">
+                    </div>
+                </div>
+            </article>
+            <a class="mt-4" href="https://wa.me/14073126787" target="_blank">
+                <button
+                    class="btn btn-green text-white fw-bold fs-5 rounded-pill boton-personalizado animate__animated animate__tada animate__slower animate__infinite">
+                    QUIERO VER EL CATÁLOGO
+                </button>
+            </a>
+        </section>
+
+        <section id="financiamiento" class="container-fluid">
+            <article>
+                <h2 class="text-center mt-5 fs-1">Financiamiento disponible</h2>
+                <p class="fs-4 px-5">Descubre en nuestra sección de financiamiento opciones flexibles que se adaptan a
+                    ti. Ya sea con licencia de conducir o pasaporte, hacemos posible que obtengas el auto de tus sueños.
+                    Con nosotros, el camino hacia tu próximo vehículo es más fácil que nunca.</p>
+            </article>
+            <article class="container-pasaporte-y-licencia d-flex justify-content-center align-items-center">
+                <div
+                    class="position-relative contenedor-pasaporte d-flex flex-column justify-content-center align-items-center">
+                    <i class="bi bi-check2-square position-absolute icono-pasaporte text-green"></i>
+                    <img class="pasaporte" src="./public/images/pasaporte.webp" alt="imagen de pasaporte">
+                    <p class="text-center mt-1 fs-1">Pasaporte</p>
+                </div>
+
+                <div
+                    class="position-relative contenedor-licencia d-flex flex-column justify-content-center align-items-center">
+                    <i class="bi bi-check2-square position-absolute icono-licencia text-green"></i>
+                    <img class="licencia" src="./public/images/licencia_conducir.webp"
+                        alt="imagen de licencia de conducción">
+                    <p class="text-center mt-1 fs-1">Licencia de conducción</p>
+                </div>
+            </article>
+        </section>
+
+        <section id="subasta" class="container-fluid d-flex flex-column justify-content-center align-items-center subasta">
+            <article>
+                <h2 class="text-center fs-1 mb-3">¿Te gustaría comprar tu auto en una subasta?</h2>
+                <p class="fs-4 px-5">Accede a emocionantes oportunidades de compra en subastas exclusivas! En
+                    Globalcar Auto Sales LLC, te ofrecemos la posibilidad de participar en subastas para adquirir el
+                    auto de tus sueños al mejor precio. Déjanos guiarte a través del proceso para que puedas obtener el
+                    vehículo perfecto para ti. ¡Contáctanos y obtén mas información!</p>
+            </article>
+            <a class="mt-4" href="https://wa.me/14073126787" target="_blank">
+                <button
+                    class="btn btn-green text-white fw-bold fs-5 rounded-pill boton-personalizado animate__animated animate__tada animate__slower animate__infinite">
+                    QUIERO MÁS INFORMACIÓN
+                </button>
+            </a>
+        </section>
+
+        <section id="sobre-nosotros" class="container-fluid d-flex flex-column justify-content-center align-items-center seccion-sobre-nosotros">
+            <article class="container d-flex justify-content-center align-items-center gap-3 sobre-notros-contenedor">
+                <div class="contenedor-imagen-sobre-nosotros">
+                    <img class="sobre-notros img-fluid rounded" src="./public/images/sobrenosotros.webp"
+                        alt="imagen del parqueadero del dealer">
+                </div>
+                <div class="contenedor text-white">
+                    <h2 class="text-center mb-3 fs-1">Sobre nosotros</h2>
+                    <p class="fs-4">En Globalcar Auto Sales LLC, con sede en Orlando, Florida, nos enorgullece una
+                        larga trayectoria en la industria automotriz. Nos destacamos por ofrecer una amplia gama de
+                        vehículos de calidad y un servicio excepcional. Además, nuestro compromiso con la accesibilidad
+                        se
+                        refleja en nuestras opciones de financiamiento, que incluyen la posibilidad de financiar con
+                        pasaporte o licencia de conducir. Descubre más sobre nosotros y nuestra dedicación por brindar
+                        experiencias automotrices excepcionales.</p>
+                </div>
+            </article>
+        </section>
+
+        <section class="mt-5 container-fluid d-flex flex-column justify-content-center align-items-center metodos-pago bg-gray">
+            <h2 class="text-center mb-3 fs-1 text-white">Medios de pago</h2>
+            <article class="carrusel">
+                <div class="d-flex justify-content-between align-items-center carrusel-items px-5">
+                    <div class="carrusel-item">
+                        <img class="img-fluid" src="./public/images/logo_visa.webp" alt="logo Hyundai">
+                    </div>
+                    <div class="carrusel-item">
+                        <img class="img-fluid" src="./public/images/logo_american.webp" alt="logo Mazda">
+                    </div>
+                    <div class="carrusel-item">
+                        <img class="img-fluid" src="./public/images/logo_mastercard.webp" alt="logo chevrolet">
+                    </div>
+                    <div class="carrusel-item">
+                        <img class="img-fluid" src="./public/images/logo_discover.png" alt="logo Ford">
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section id="contactanos" class="container-fluid d-flex flex-column justify-content-center align-items-center seccion-contactanos">
+            <h2 class="text-center my-5 fs-1">Contáctanos</h2>
+            <article class="container d-flex justify-content-center align-items-center gap-5">
+                <div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.4306535547908!2d-81.40099352567985!3d28.436431675772383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e77dec27e6980d%3A0x4c5d9717ece8245!2sGlobalcar%20Auto%20Sales%20LLC!5e0!3m2!1ses-419!2sco!4v1715134094835!5m2!1ses-419!2sco"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade" class="rounded"></iframe>
+                </div>
+                <div class="d-flex flex-column justify-content-center">
+                    <h3 class="text-center mb-3 fs-3">1455 W Landstreet Rd, Suite 305
+                        Orlando, FL 32824</h3>
+                    <div class="d-flex">
+                        <i class="bi bi-telephone-outbound-fill me-2 fs-4 text-green"></i>
+                        <a href="tel:+14077243596" target="_blank" class="fs-4 fw-medium nav-link">(407) 724 3596</a>
+                    </div>
+                    <div class="d-flex">
+                        <i class="bi bi-telephone-outbound-fill me-2 fs-4 text-green"></i>
+                        <a href="tel:+14077299282" target="_blank" class="fs-4 fw-medium nav-link">(407) 729 9282</a>
+                    </div>
+                    <div class="d-flex">
+                        <i class="bi bi-telephone-outbound-fill me-2 fs-4 text-green"></i>
+                        <a href="tel:+14079896072" target="_blank" class="fs-4 fw-medium nav-link">(407) 989 6072</a>
+                    </div>
+                    <div class="mt-4">
+                        <p class="fs-4 fw-medium">Horario de atención</p>
+                        <p class="fs-5 fw-medium">L-V 10:00 a.m. - 06:00 p.m.</p>
+                    </div>
+                </div>
+            </article>
         </section>
     </main>
-    <footer></footer>
+    <footer class="container-fluid bg-black mt-5 px-5 footer">
+        <article class="d-flex flex-wrap justify-content-between align-items-center border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                    <img class="logo-footer" src="./public/images/logo.webp" alt="logo de Globalcar Auto Sales">
+                </a>
+            </div>
+            <div class="col-md-4 d-flex align-items-center">
+                <p class="mb-3 mb-md-0 text-white copyright">&copy; Copyright <span id="currentYear"></span>. Globalcar Auto Sales LLC. Todos los
+                    derechos reservados</p>
+            </div>
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-body-secondary"
+                        href="https://www.facebook.com/profile.php?id=61559136426345" target="_blank"><i
+                            class="bi bi-facebook text-white fs-2"></i></a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/globalcarautosales/"
+                        target="_blank"><i class="bi bi-instagram text-white fs-2"></i></a></li>
+            </ul>
+        </article>
+    </footer>
 
     <script type="module" src="./src/js/main.js"></script>
 </body>
