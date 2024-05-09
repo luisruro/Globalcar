@@ -2,7 +2,7 @@
 .contenedor-boton-whatsapp{
     z-index: 7;
     position: fixed;
-    bottom: 10%;
+    bottom: 15%;
     right: 5%;
     width: 60px;
     height: 60px;
@@ -16,7 +16,7 @@
     width: 600px;
 }
 
-.imagen{
+.imagen-fluid{
     opacity: 0.6;
 }
 
@@ -24,13 +24,8 @@
     font-size: 4rem;
 }
 
-.boton-personalizado{
-    width: 260px;
-    height: 65px;
-}
-
 .small-section{
-    width: 800px;
+    width: 880px;
     height: 200px;
     background-color: var(--white-degraded);
 }
@@ -72,3 +67,12 @@
     background-attachment: fixed;
     background-size: cover;
 }
+
+#por-que-nosotros,
+    #catalogo,
+    #financiamiento,
+    #subasta,
+    #sobre-nosotros,
+    #contactanos {
+        scroll-margin-top: 120px;
+    }
