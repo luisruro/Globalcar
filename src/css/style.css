@@ -14,8 +14,18 @@
     --white-degraded: rgb(255, 255, 255, 0.7);
 }
 
+.hover:hover{
+    background-color: var(--green);
+    border-radius: 20px;
+}
+
 body {
     font-size: 16px;
+}
+
+header{
+    background-color: var(--white-degraded);
+    height: 15%;
 }
 
 @media (max-width: 1400px) {
@@ -38,22 +48,37 @@ body {
 
 @media screen and (max-width: 576px) {
     main {
-        margin-top: 12%;
+        margin-top: 0%;
+        
     }
-
     .tamaño-contenedor {
         width: 400px;
         height: 780px;
+    }
+    .navbar-brand img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .navbar-toggler{
+        margin-right: 5%;
+       
     }
 
     .font-media-sm {
         font-size: 2rem;
     }
 
+    .offcanvas-body{
+        background-color: var(--white-degraded);
+        color: white;
+     }
     .carousel-item {
         padding-bottom: 30%;
     }
-
+    .carrusel-seccion{
+        padding-bottom: 5%;
+    }
     .carousel-caption {
         margin-top: 58%;
     }
@@ -115,7 +140,7 @@ body {
 
     footer nav {
         display: flex;
-        font-size: 10px;
+        font-size: 8px;
     }
 
     .copyright {
@@ -129,7 +154,7 @@ body {
     }
 
     .t-icono {
-        font-size: 25px;
+        font-size: 22px;
     }
 
     #por-que-nosotros,
@@ -140,4 +165,113 @@ body {
     #contactanos {
         scroll-margin-top: 140px;
     }
+}
+
+@media (min-width: 390px) and (max-width: 455px) {
+    main {
+        margin-top: 0%;
+        
+    }
+    .img-descripcion{
+        margin-top: 70%;
+    }
+
+    .offcanvas-body{
+        background-color: var(--white-degraded);
+        color: white;
+     }
+    .carrusel-seccion{
+        padding-top: 5%;
+        padding-bottom: 8%;
+    }
+    .hola{
+        width: auto;
+        height: 270px;
+    }
+    .texto{
+        font-size: 5px;
+    }
+
+    .navbar-brand img{
+        width: 70px;
+        height: 70px;
+    }
+
+    .navbar-toggler{
+        margin-right: 5%;
+       
+    }
+
+    .tamaño-contenedor {
+        width: 300px;
+        height: 790px;
+    }
+
+    .font-media-sm {
+        font-size: 1.8rem;
+    }
+
+    .small-section {
+        width: 330px;
+        height: 110px;
+    }
+
+    .sub-contenedor {
+        font-size: 7px;
+    }
+
+    .sub-contenedor h2 {
+        font-size: 16px;
+    }
+    .contenedor-boton-whatsapp{
+        z-index: 7;
+        position: fixed;
+        bottom: 15%;
+        right: 5%;
+        width: 40px;
+        height: 40px;
+    }
+    
+    .icono-whatsapp{
+        font-size: 1.5rem;
+    }
+    
+    footer nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .copyright {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text-copyright {
+        font-size: 5px;
+    }
+
+    .t-icono {
+        font-size: 18px;
+    }
+
+    .img-footer{
+        width: 30px;
+        height: 30px;
+    }
+
+    #por-que-nosotros,
+    #catalogo,
+    #financiamiento,
+    #subasta,
+    #sobre-nosotros,
+    #contactanos {
+        scroll-margin-top: 140px;
+    }
+}
+
+.img-footer{
+    width: 80px;
+    height: 80px;
 }
