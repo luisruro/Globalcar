@@ -51,6 +51,9 @@ header{
         margin-top: 0%;
         
     }
+    header{
+        height: 100px;
+    }
     .tamaño-contenedor {
         width: 400px;
         height: 780px;
@@ -167,13 +170,16 @@ header{
     }
 }
 
-@media (min-width: 390px) and (max-width: 455px) {
+@media (min-width: 390px) and (max-width: 550px) {
     main {
         margin-top: 0%;
         
     }
+    header{
+        height: 80px;
+    }
     .img-descripcion{
-        margin-top: 70%;
+        margin-top: 71%;
     }
 
     .offcanvas-body{
@@ -181,7 +187,7 @@ header{
         color: white;
      }
     .carrusel-seccion{
-        padding-top: 5%;
+        margin-top: 0%;
         padding-bottom: 8%;
     }
     .hola{
